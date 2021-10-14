@@ -1,0 +1,292 @@
+body{
+    font-family: fantasy;  
+    background-color: rgba(37, 82, 37, 0.427);
+    position: relative;
+    /* background: url();
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+/* <!-- 導覽列 --> */
+.header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(37, 82, 37, 0.427);
+}
+
+.header .logo {
+    margin-bottom: -30px;
+}
+
+.header .logo img{ 
+    width:70%;
+    border-radius: 10%;
+}
+
+.header nav{
+word-spacing: 20px;
+flex-grow: 1;
+margin-left: 10px;
+}
+
+.header nav a {
+    color: rgba(245, 240, 240, 0.87);
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px ;
+}
+
+.header nav a:hover {
+    color:rgba(250, 250, 250, 0.577);
+    font-size: 25px;
+    padding-left: 50px; 
+    padding-right: 50px;
+    font-weight: bolder;
+}
+
+.space{
+    display: flex;
+    margin-right: 50px;
+    color: rgba(245, 240, 240, 0.87);
+}
+
+.header .space .search{
+    padding-left: 20px;
+}
+
+.header .space .cart{
+    padding-left: 30px;
+}
+
+/* <!-- banner --> */
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner_pic{
+    background-color: rgba(225, 224, 185, 0.44);
+    width: 100%;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.banner .banner_pic img{
+    width: 100%;
+    height: 600px;
+    position: relative; 
+}
+
+.banner_txt .banner_slog{
+    font-size: 60px;
+    color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+.banner_txt .banner_slog2{
+        font-size: 20px;
+        color: white;
+        opacity: 0.7;
+        position: absolute;
+        top: 220px;
+        left: 550px; 
+        text-decoration: none;
+}
+
+/* "title" */
+.title{
+    width: 960px;
+    margin: auto;
+}
+
+.title .row .item h1{
+        color: rgba(255, 255, 255, 0.721);
+        font-size: 30px;
+        margin-top: 40px;
+        text-align: start;
+}
+
+.seconed-nav{
+    text-align: center;
+}
+
+.seconed-nav select {
+    font-family: fantasy;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 18px;
+    border:rgb(250, 246, 246) 2px solid;
+    border-radius: 10px;
+    background-color: rgba(160, 194, 160, 0.365);
+    color: seashell;
+}
+
+/* .seconed-nav ol{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.seconed-nav li{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgba(29, 57, 29, 0.577);
+}
+
+.seconed-nav li:hover{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgba(229, 237, 229, 0.756);
+} */
+
+
+
+
+/* player */
+
+.player{
+    width: 960px;
+    margin: auto;
+    margin-top: 30px;
+}
+.player .row .col-12 h1 {
+    font-size: 40px;
+    border-bottom: solid 3px darkolivegreen;
+    color: rgba(31, 58, 31, 0.577);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.player .row img{
+    width: 100%;
+    border-radius: 5px;
+}
+.baby_p h1{
+    margin-top: 60px;
+}
+
+.beginner_p,
+.advanced_p,
+.itermed_p,
+.high_p{
+    margin-top: 80px;
+}
+
+.player .row .col-3,
+.player .row .col-4,
+.player .row .col-8{
+    filter: brightness(0.5);
+    
+    margin-top: 10px;
+}
+.player .row .col-3:hover,
+.player .row .col-4:hover,
+.player .row .col-8:hover{
+    filter: brightness(0.9);
+}
+
+.baby_p img,
+.beginner_p img,
+.advanced_p img,
+.itermed_p img,
+.high_p img{
+    width: 100%;
+    height: 300px;
+}
+
+.baby_p .More-in a,
+.beginner_p .More-in a,
+.advanced_p .More-in a,
+.itermed_p .More-in a,
+.high_p .More-in a{
+    font-size: 20px;
+    color: rgb(250, 246, 246);
+    margin-left: 1100px;
+}
+
+.baby_p .More-in a:hover,
+.beginner_p .More-in a:hover,
+.advanced_p .More-in a:hover,
+.itermed_p .More-in a:hover,
+.high_p .More-in a:hover{
+    font-size: 20px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    transition: 2s;
+    margin-left: 1100px;
+}
+
+/* <!-- content-1 --> */
+
+.baby_p .name-m{
+    position: relative;
+}
+
+.baby_p .icon-m{
+    color: white;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.baby_p .name{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    top:60px;
+    right:10px;
+    text-decoration: none;
+}
+.baby_p .high{
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* content */ 
+
+
+
+.up a i{
+font-size: 40px;
+padding-left: 1350px;
+color: white;
+position: fixed;
+bottom: 60px;   
+right: 20px;
+}
+
+/* ____footer */
+
+.footer .row .col-12 .item{
+    font-size: 15px;
+    color: white;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+
