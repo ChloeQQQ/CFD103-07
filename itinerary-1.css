@@ -7,12 +7,6 @@
 
 /* 手機版 */
 
-.owl-carousel img{
-    width: 200px;
-    height: 100px;
-    filter: brightness(1);
-    object-fit: cover;
-}
 
 .container{
     background: black;
@@ -287,8 +281,12 @@ img{
     color:rosybrown;
 }
 
-
-
+.owl-carousel img{
+    width: 200px;
+    height: 100px;
+    filter: brightness(1);
+    object-fit: cover;
+}
 
 
 
