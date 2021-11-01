@@ -256,20 +256,20 @@ img{
 }
 .up .cart{
     font-size: 20px;
-    color:rgba(205, 144, 144, 0.653);
+    color:rgba(240, 240, 240, 0.981);
     position: absolute;
     top: 130px; 
     right: 10px;
 }
 
 .footericons{
-    color:rgba(205, 144, 144, 0.653);
+    color:rgba(240, 240, 240, 0.981);
     word-spacing: 20px;
     margin-top: 40px;
     text-align: center;
 }
 .footerprivacy{
-    color:rgba(205, 144, 144, 0.653);
+    color:rgba(240, 240, 240, 0.981);
     font-family: 'Architects Daughter', cursive;
     margin-top: 40px;
     text-align: center;
