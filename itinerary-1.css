@@ -249,7 +249,7 @@ img{
 }
 .up .search{
     font-size: 20px;
-    color:rgba(205, 144, 144, 0.653);
+    color:rgba(240, 240, 240, 0.981);
     position: absolute;
     top: 90px;
     right: 10px;
@@ -278,7 +278,7 @@ img{
 
 .More-in a{
     font-size: 20px;
-    color:rosybrown;
+    color:rgba(240, 240, 240, 0.981);
 }
 
 .owl-carousel img{
