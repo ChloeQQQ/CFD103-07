@@ -1,0 +1,891 @@
+/* font-family: 'Gamja Flower', cursive; */
+/* font-family: 'Grechen Fuemen', cursive; */
+/* font-family: 'Architects Daughter', cursive; */
+
+/* 手機版 */
+body{
+    font-family: 'Architects Daughter', cursive;}
+
+.container{
+    background:linear-gradient(90deg,rgba(183, 215, 191, 0.468)50%,transparent 50%);
+}
+
+.checkbox{
+    margin: auto;
+    font-family: 'Architects Daughter', cursive;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+}
+.logo img{
+    width: 120%;
+} 
+.main-nav{
+    width: 300px;
+    height: 310px;
+    display: none;
+    flex-direction: column;
+    background-color:rgba(13, 70, 13, 0.961);
+    border-radius: 10px;
+    opacity: 0.9;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    z-index: 3;
+}
+.main-nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+    color:rgba(245, 243, 243, 0.951);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+.main-nav a:hover{
+    margin-left: 50px;
+    color: rgba(15, 16, 15, 0.961);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.hb{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 70px;
+    background-color: rgba(241, 248, 241, 0.461);
+    }
+    .hb span{
+    display: block;
+    border-radius: 5px;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(3, 80, 29);
+    border: rgb(23, 67, 25) 1px solid;
+    }
+    
+    
+.hb span:first-child{
+    margin-top: 15px;
+}
+.hb span:nth-child(2){
+    margin-top: 13px;
+}
+.hb span:last-child{
+    margin-top: 15px;
+}
+.banner_pic img{
+    display: none;
+    width: 100%;
+}
+.banner_txt{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner_slog3 img{
+    display: none;
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.banner .banner_slog {
+    display: none;
+}
+.banner .banner_slog2 {
+    display: none;
+}
+/* --------手機版相同的部分 */
+
+.title{
+    font-family: 'Architects Daughter', cursive;
+    color: darkgreen;
+    text-align: center;
+}
+.title h1{
+    margin-top: 60px;
+    font-size: 35px;
+}
+.title h5{
+    color: rgb(194, 94, 31);
+    font-size: 20px;
+    text-transform:capitalize;
+}
+.item ol{
+    margin: auto;
+    width: 50%;
+    height: 250px;
+    padding: 10px;
+    background-color: snow;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 4px 10px silver;
+}
+.item li{
+    line-height: 25px;
+    font-size: 18px;
+    list-style-type: disc;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+.level .title{ 
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(194, 94, 31);
+    font-size: 20px;
+}
+.boxse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.checkbox{
+    padding-top: 20px;
+
+}
+.check .item{
+    font-size: 19px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.check .item input{
+    zoom: 300%;
+} 
+
+.answer .item{
+    margin-top: 30px;
+    text-align: center;
+}
+.answer .item h1{
+    padding-left: 20px;
+    text-align:start;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color:black;
+    font-size: 20px;
+}
+.answer .item input{
+    border-radius: 10px;
+    border:none;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.answer .item input::-webkit-input-placeholder{
+    font-size: 20px;
+    text-align: start;
+    padding-left: 20px;
+    font-family: 'Architects Daughter', cursive;
+    opacity: 1;
+}    
+
+.infor-but{
+    margin: 70px 0px;
+    text-align: center;
+}
+.infor-but a{
+    font-family: 'Architects Daughter', cursive;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    padding: 20px;
+    font-weight: 100;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(250, 242, 231);
+    transform:skewX(180deg);
+    transition: 1s;
+}
+.infor-but a:hover{
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    padding: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgba(91, 150, 91, 0.861);
+    transform:skewX(0deg);
+    transition: 1s;
+}
+.answer h1{
+    line-height: 30px;
+    font-size: 0px;
+    padding-top: 40px;
+    transition: 0s;
+
+}
+.answer :hover h1{
+    transition: 1s;
+    font-size: 20px;
+}
+.comm input{
+    padding: 100px 0px;
+    width: 100%;
+    height: 400px;
+}
+.visit{
+    font-weight: 900;
+    padding-top: 100px;
+    color: rgba(3, 57, 3, 0.584);
+    text-align: start;
+    line-height: 30px;
+}
+.location .contact{
+    font-family: 'Architects Daughter', cursive;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* //mapRWD */
+.located{
+    aspect-ratio: 600/450;
+}
+
+.located iframe{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;  
+}
+
+.contact li{
+    border-bottom: rgb(168, 210, 168) 2px solid;
+}
+
+/* ___up */
+
+
+.up .icon{
+    font-size: 40px;
+    color:rgba(205, 144, 144, 0.653);
+    position: fixed;
+    bottom: 0px;   
+    right: 0px;
+}
+.up .search{
+    font-size: 20px;
+    color:rgba(205, 144, 144, 0.653);
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+.up .cart{
+    font-size: 20px;
+    color:rgba(205, 144, 144, 0.653);
+    position: absolute;
+    top: 130px; 
+    right: 10px;
+}
+
+.footericons{
+    color: darkgreen;
+    font-family: 'Architects Daughter', cursive;
+    word-spacing: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footerprivacy{
+    color: darkgreen;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+ /* ========================================    */
+@media screen and (min-width: 768px){
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+
+    .container{
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .title{
+        color: darkgreen;
+        text-align: center;
+    }
+    .title h1{
+        margin-top: 80px;
+        font-size: 40px;
+    }
+    .title h5{
+        color: rgb(194, 94, 31);
+        font-size: 20px;
+        text-transform:capitalize;
+    }
+    .item ol{
+        margin: auto;   
+        width: 70%;
+        height: 250px;
+        padding: 10px;
+        background-color: snow;    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 60px;
+        border-radius: 10px;
+        box-shadow: 10px 4px 10px silver;
+    }
+    
+    .item li{
+        line-height: 25px;
+        font-size: 18px;
+        list-style-type: disc;
+    }
+
+    .level .title{ 
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: rgb(194, 94, 31);
+        font-size: 20px;
+    }
+    .checkbox{
+        padding-top: 0px;
+        
+    }
+    .check .item{
+        margin: 0px 60px;
+        padding: 0px 0px 0px 60px;
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+
+    .check .item input{
+        zoom: 300%;
+    } 
+    .answer .item{
+        margin-top: 10px;
+        text-align:center;
+    }
+    .answer .item h1{
+        padding-left: 110px;
+        text-align: start;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        color:black;
+        font-size: 23px;
+    }   
+    .answer .item input{
+        border-radius: 10px;
+        border:none;
+        width: 500px;
+        height: 50px;
+        background-color: white;
+    }
+    .answer .item input::-webkit-input-placeholder{
+        font-size: 20px;
+        text-align: start;
+        padding-left: 20px;
+        font-family: 'Architects Daughter', cursive;
+        opacity: 1;
+    }    
+    
+    .infor-but{
+        margin: 70px 0px;
+        text-align: center;
+    }
+    .infor-but a{
+        text-decoration: none;
+        color: rgb(7, 7, 7);
+        padding: 20px;
+        font-weight: 100;
+        font-size: 25px;
+        border-radius: 10px;
+        background-color: rgb(250, 242, 231);
+        transform:skewX(180deg);
+        transition: 1s;
+    }
+    
+    .infor-but a:hover{
+        text-decoration: none;
+        color: rgb(247, 244, 244);
+        padding: 20px;
+        font-weight: 100;
+        font-size: 30px;
+        border-radius: 10px;
+        background-color: rgba(91, 150, 91, 0.861);
+        transform:skewX(0deg);
+        transition: 1s;
+    }
+    .answer h1{
+        line-height: 30px;
+        font-size: 0px;
+        padding-top: 40px;
+        transition: 0s;
+    
+    }
+    .visit{
+        font-weight: 900;
+        padding-top: 100px;
+        margin-top: 0px;
+        color: rgba(91, 150, 91, 0.861);
+        text-align: start;
+        line-height: 30px;
+    }
+    .location .contact{
+        line-height: 30px;
+        text-align: end;
+        padding-right: 20px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    /* //mapRWD */
+
+    .located{
+    aspect-ratio: 600/450;
+    }
+
+    .located iframe{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;  
+    }
+
+    .footericons{
+        word-spacing: 20px;
+        text-align: center;
+    }
+    .footerprivacy{
+        margin-top: 100px;
+        font-size: 12px;
+    }
+}
+
+/* ============================================== */
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+
+    .main-header{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: fixed;
+        background-color: #398039a7;;
+        font-family: 'Architects Daughter', cursive;
+        z-index: 3;
+    }
+    .main-nav{
+        width: 100%;
+        height: 100%; 
+        position: static;
+        display: flex;
+        flex-direction: row;
+        background-color:transparent;
+        border-radius: 0px;
+        opacity: 1;
+    }
+
+    .main-nav a{
+        padding-left: 35px;
+        margin-left: 0px;
+        color: rgba(245, 243, 243, 0.981);
+        font-size: 25px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+    .main-nav a:hover{
+        margin-left: 0px;
+        color: rgba(5, 5, 5, 0.851);
+        font-size: px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+
+    .hb{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        width:  50px;
+        height: 70px;
+        background-color: rgba(91, 150, 91, 0.761);  
+    }
+    .hb span{
+        display: none;
+        border-radius: 5px;
+        width: 40px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        border: rgb(23, 67, 25) 1px solid;
+    }
+    .banner{
+        position: relative;
+        font-family: 'Grechen Fuemen', cursive;
+        opacity: 1;
+    }
+    .banner_pic{  
+        height: 400px;
+    }
+    .banner_pic img{
+        object-fit: cover;
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        z-index:2;
+    }
+    .banner_txt{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .banner_slog {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.968);
+        font-size: 80px;
+        position: absolute;
+        top:120px;
+        left:70px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.6;
+    }
+    .banner .banner_slog2 {
+        text-decoration: none;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.968);
+        text-indent: 20px;
+        line-height: 40px;
+        position: absolute;
+        top:250px;
+        left:240px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.8;
+    }
+
+    .title{
+        color: darkgreen;
+        text-align: center;
+    }
+    .title h1{
+        text-align: center;
+        margin-top: 80px;
+        font-size: 40px;
+    }
+    .title h5{
+        color: rgb(194, 94, 31);
+        font-size: 20px;
+        text-transform:capitalize;
+    }
+    .item ol{
+        margin: auto;   
+        width: 70%;
+        height: 250px;
+        padding: 10px;
+        background-color: snow;    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 60px;
+        border-radius: 10px;
+        box-shadow: 10px 4px 10px silver;
+    }
+    
+    .item li{
+        line-height: 25px;
+        font-size: 18px;
+        list-style-type: disc;
+    }
+    .level .title{ 
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: rgb(194, 94, 31);
+        font-size: 20px;
+    }
+    .checkbox{
+        padding-top: 0px;
+        
+    }
+    .check .item{
+        margin: 0px 0px;
+        padding: 0px 0px 0px 60px;
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+
+    .check .item input{
+        zoom: 300%;
+    } 
+    .answer .item{
+        margin-top: 10px;
+        text-align:center;
+    }
+    .answer .item h1{
+        padding-left: 250px;
+        text-align: start;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        color:black;
+        font-size: 23px;
+    }   
+    .answer .item input{
+        border-radius: 10px;
+        border:none;
+        width: 500px;
+        height: 50px;
+        background-color: white;
+    }
+    .answer .item input::-webkit-input-placeholder{
+        font-size: 20px;
+        text-align: start;
+        padding-left: 20px;
+        font-family: 'Architects Daughter', cursive;
+        opacity: 1;
+    }    
+    
+    .infor-but{
+        margin: 70px 0px;
+        text-align: center;
+    }
+    
+    
+    .infor-but a{
+        text-decoration: none;
+        color: rgb(7, 7, 7);
+        padding: 20px;
+        font-weight: 100;
+        font-size: 25px;
+        border-radius: 10px;
+        background-color: rgb(250, 242, 231);
+        transform:skewX(180deg);
+        transition: 1s;
+    }
+    
+    .infor-but a:hover{
+        text-decoration: none;
+        color: rgb(247, 244, 244);
+        padding: 20px;
+        font-weight: 100;
+        font-size: 30px;
+        border-radius: 10px;
+        background-color: rgba(91, 150, 91, 0.861);
+        transform:skewX(0deg);
+        transition: 1s;
+    }
+    .answer h1{
+        line-height: 30px;
+        font-size: 0px;
+        padding-top: 40px;
+        transition: 0s;
+    
+    }
+    .visit{
+        font-weight: 900;
+        margin-top: 0px;
+        padding-top: 50px;
+        color:#398039a7;
+        text-align: start;
+    }
+    .location .contact{
+        text-align: start;
+        font-size: 20px;
+    }
+    .up .icon{
+        font-size: 40px;
+        color:rgba(205, 144, 144, 0.653);
+        position: fixed;
+        bottom: 0px;   
+        right: 10px;
+    }
+    .up .search{
+        font-size: 20px;
+        color:rgba(205, 144, 144, 0.653);
+        position: fixed;
+        top: 480px;
+        right: 20px;
+    }
+    .up .cart{
+        font-size: 20px;
+        color:rgba(205, 144, 144, 0.653);
+        position: fixed;
+        top: 420px; 
+        right: 20px;
+    }
+    .footericons{
+        word-spacing: 20px;
+        text-align: center;
+    }
+    .footerprivacy{
+        margin-top: 100px;
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+
+.checkbox{
+    margin: auto;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.main-nav a{
+    padding-left: 70px;
+    margin-left: 0px;
+    color: rgba(245, 243, 243, 0.981);
+    font-size: 25px;
+    margin-top: 0px;
+    line-height: 0px;
+}
+.checkbox{
+    padding-top: 0px;
+    
+}
+.check .item{
+    margin: 0px 0px;
+    padding: 0px 0px 0px 60px;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+
+.check .item input{
+    zoom: 300%;
+} 
+.answer .item{
+    margin-top: 10px;
+    text-align:center;
+}
+.answer .item h1{
+    padding-left: 320px;
+    text-align: start;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color:black;
+    font-size: 23px;
+}   
+.answer .item input{
+    border-radius: 10px;
+    border:none;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+}
+.answer .item input::-webkit-input-placeholder{
+    font-size: 20px;
+    text-align: start;
+    padding-left: 20px;
+    font-family: 'Architects Daughter', cursive;
+    opacity: 1;
+}  
+.answer h1{
+    line-height: 30px;
+    font-size: 0px;
+    padding-top: 40px;
+    transition: 0s;
+
+}
+.infor-but{
+    margin: 70px 0px;
+    text-align: center;
+}
+.infor-but a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    padding: 20px;
+    font-weight: 100;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(250, 242, 231);
+    transform:skewX(180deg);
+    transition: 1s;
+}
+.infor-but a:hover{
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    padding: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgba(91, 150, 91, 0.861);
+    transform:skewX(0deg);
+    transition: 1s;
+}
+
+.visit{
+    font-weight: 900;
+    margin-top: 0px;
+    padding-top: 50px;
+    color: rgba(91, 150, 91, 0.861);
+    text-align: start;
+    /* line-height: 30px; */
+}
+.location .contact{
+    line-height: 40px;
+    padding-left: 40px;
+    text-align: start;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.footericons{
+    font-size: 20px;
+    word-spacing: 20px;
+    text-align: center;
+}
+.footerprivacy{
+    font-size: 30px;
+    margin-top: 100px;
+    font-size: 12px;
+}
+.footerprivacy p{
+    font-size: 15px;
+}
+
+
+}
+
+
+
+
+
+

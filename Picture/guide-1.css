@@ -1,0 +1,460 @@
+/* font-family: 'Gamja Flower', cursive; */
+/* font-family: 'Grechen Fuemen', cursive; */
+/* font-family: 'Architects Daughter', cursive; */
+
+
+
+.container{
+    background: linear-gradient(90deg,rgba(137, 209, 216, 0.468)40%,transparent 100%); 
+    color:darkgreen;
+    margin: auto;
+    font-family: 'Architects Daughter', cursive;
+}
+img{
+    width: 50%;
+    border-radius: 5px;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    font-family: 'Architects Daughter', cursive;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+}
+.logo img{
+    width: 120%;
+} 
+
+.main-nav{
+    width: 300px;
+    height: 310px;
+    display: none;
+    flex-direction: column;
+    background-color:rgba(13, 70, 13, 0.961);
+    border-radius: 10px;
+    opacity: 0.9;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    z-index: 3;
+}
+.main-nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+    color:rgba(245, 243, 243, 0.951);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+.main-nav a:hover{
+    margin-left: 50px;
+    color: rgba(15, 16, 15, 0.961);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.hb{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 70px;
+    background-color: rgba(241, 248, 241, 0.461);
+    }
+    .hb span{
+    display: block;
+    border-radius: 5px;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(3, 80, 29);
+    border: rgb(23, 67, 25) 1px solid;
+    }
+    
+.hb span:first-child{
+    margin-top: 15px;
+}
+.hb span:nth-child(2){
+    margin-top: 13px;
+}
+.hb span:last-child{
+    margin-top: 15px;
+}
+.banner_pic img{
+    display: none;
+    width: 100%;
+}
+.banner_txt{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner_slog3 img{
+    display: none;
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.banner .banner_slog {
+    display: none;
+}
+.banner .banner_slog2 {
+    display: none;
+}
+
+.up .icon{
+    font-size: 40px;
+    color:rosybrown;
+    position: fixed;
+    bottom: 0px;   
+    right: 0px;
+}
+
+.up .search{
+    display: none;
+    font-size: 20px;
+    color:rosybrown;
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+.up .cart{
+    display: none;
+    font-size: 20px;
+    color:rosybrown;
+    position: absolute;
+    top: 130px; 
+    right: 10px;
+
+}
+
+.icons,.privacy{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    color:darkgreen;
+    
+    }
+.icons{
+    margin-top: 100px;
+}
+
+/* ====== */
+
+    .title h1{
+        background-color: rgba(13, 70, 13, 0.661);
+        border-radius: 10px;
+        padding:20px 5px;
+        display: inline-block;
+        line-height:20px;
+        color:rgb(248, 248, 248);
+        margin: 50px 0px 30px 0px;
+        font-size: 29px;
+        text-align: center;
+    }
+    .content ol li{
+    border-radius: 40px;
+    display: inline-block;
+    padding: 30px 50px;
+    border:  2px rgb(240, 236, 236) solid;
+    background-color: rgba(203, 232, 213, 0.249);
+    }
+    .content ol li a{
+        line-height: 30px;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(29, 27, 27);
+    }
+    a .leana,a .christina{
+        padding-left: 170px;
+    }
+    .content h2{
+        padding-bottom: 10px;
+        font-size: 30px;
+        color: darkgreen;
+    }
+    .content h3{
+        padding:10px 0px;
+    }
+    .content .L-move,.C-move{
+        text-align: end;
+    }
+
+    .motto {
+        text-decoration: none;
+    }
+
+    a h4{
+        line-height: 40px;
+        margin: 50px 0px;
+        color: black;
+        font-size: 20px;
+        
+    }
+    .name-card{
+        border-radius: 10px;
+        background-color: rgba(241, 248, 241, 0.461);
+        padding: 0px 10px;
+        ;
+    }
+    
+
+
+    
+    
+@media screen and (min-width: 768px){
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+
+    body{
+        background-image: url(./Picture/2222.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .title h1{
+        color: whitesmoke;
+        margin: 50px 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .content ol li{
+    display: block;
+    padding: 30px 50px;
+    border:  2px rgb(240, 236, 236) solid;
+    background-color: rgba(53, 58, 55, 0.249);
+    }
+    .content ol li a{
+        line-height: 30px;
+        font-size: 20px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    a .leana,.david{
+        padding-left: 170px;
+    }
+
+    a .christina{
+
+        padding-left: 0px;
+    }
+    
+    .content h2{
+        padding-bottom: 10px;
+        font-size: 30px;
+        color: darkgreen;
+    }
+    .content h3,p{
+        font-size: 20px;
+        padding:10px 0px;
+    }
+    .content .L-move,.C-move{
+        text-align: end;
+    }
+
+    .motto {
+        text-decoration: none;
+    }
+
+    a h4{
+        line-height: 40px;
+        margin: 50px 0px;
+        color: rgb(12, 12, 12);
+        font-size: 20px;
+        padding: 0px 30px;
+        background-color: rgba(243, 247, 245, 0.644);
+        border-radius: 20px;
+    }
+    .icons,.privacy{
+        margin-top: 100px;
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+
+    .main-header{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: fixed;
+        background-color: #398039a7;;
+        font-family: 'Architects Daughter', cursive;
+        z-index: 3;
+    }
+    .main-nav{
+        width: 100%;
+        height: 100%; 
+        position: static;
+        display: flex;
+        flex-direction: row;
+        background-color:transparent;
+        border-radius: 0px;
+        opacity: 1;
+    }
+    .main-nav a{
+        padding-left: 35px;
+        margin-left: 0px;
+        color: rgba(245, 243, 243, 0.981);
+        font-size: 25px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+    .main-nav a:hover{
+        margin-left: 0px;
+        color: rgba(5, 5, 5, 0.851);
+        font-size: px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+
+    .hb{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        width:  50px;
+        height: 70px;
+        background-color: rgba(91, 150, 91, 0.761);  
+    }
+    .hb span{
+        display: none;
+        border-radius: 5px;
+        width: 40px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        border: rgb(23, 67, 25) 1px solid;
+    }
+    .banner{
+        width: 100%;  
+        position: relative;
+        font-family: 'Grechen Fuemen', cursive;
+        opacity: 1;
+    }
+    .banner_pic{  
+        height: 400px;
+    }
+    .banner_txt{
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .banner .banner_slog {
+        text-decoration: none;
+        color: rgba(53, 58, 55, 0.949);
+        font-size: 90px;
+        position: absolute;
+        top:120px;
+        left:180px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.6;
+    }
+    .banner .banner_slog2 {
+        text-decoration: none;
+        font-size: 30px;
+        color: rgba(53, 58, 55, 0.749);
+        text-indent: 20px;
+        line-height: 40px;
+        position: absolute;
+        top:250px;
+        left:300px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.8;
+    }
+/* =============== */
+
+.title h1{
+    color: whitesmoke;
+    margin: 50px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content ol li{
+display: block;
+padding: 30px 50px;
+border:  2px rgb(240, 236, 236) solid;
+background-color: rgba(53, 58, 55, 0.249);
+}
+.content ol li a{
+    line-height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+a .leana,.david{
+    padding-left: 170px;
+}
+
+a .christina{
+
+    padding-left: 0px;
+}
+
+.content h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: darkgreen;
+}
+.content h3,p{
+    font-size: 25px;
+    padding:10px 0px;
+}
+.content .L-move,.C-move{
+    text-align: end;
+}
+
+.motto {
+    text-decoration: none;
+}
+
+a h4{
+    line-height: 40px;
+    margin: 50px 0px;
+    color: rgb(2, 66, 29);
+    font-size: 25px;
+    
+}
+
+@media screen and (min-width: 1200px){
+    .main-nav a{
+        padding-left: 70px;
+        margin-left: 0px;
+        color: rgba(245, 243, 243, 0.981);
+        font-size: 25px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+    
+}
+    
+
+
+

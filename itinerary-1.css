@@ -1,0 +1,917 @@
+/* font-family: 'Gamja Flower', cursive; */
+/* font-family: 'Grechen Fuemen', cursive; */
+/* font-family: 'Architects Daughter', cursive; */
+/* font-family: 'Gamja Flower', cursive; */
+/* font-family: 'Grechen Fuemen', cursive; */
+/* font-family: 'Architects Daughter', cursive; */
+
+/* 手機版 */
+
+.owl-carousel img{
+    width: 200px;
+    height: 100px;
+    filter: brightness(1);
+    object-fit: cover;
+}
+
+.container{
+    background: black;
+    font-family: 'Architects Daughter', cursive;
+}
+img{
+    width: 100%;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    font-family: 'Architects Daughter', cursive;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+}
+.logo img{
+    width: 120%;
+} 
+.main-nav{
+    width: 300px;
+    height: 310px;
+    display: none;
+    flex-direction: column;
+    background-color:rgba(13, 70, 13, 1);
+    border-radius: 10px;
+    opacity: 0.9;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    z-index: 20;
+}
+.main-nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+    color:rgba(245, 243, 243, 0.951);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+.main-nav a:hover{
+    margin-left: 50px;
+    color: rgba(15, 16, 15, 0.961);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.hb{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 70px;
+    background-color: transparent;
+    }
+    .hb span{
+    display: block;
+    border-radius: 5px;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(3, 80, 29);
+    border: rgb(23, 67, 25) 1px solid;
+    }
+    
+.hb span:first-child{
+    margin-top: 15px;
+}
+.hb span:nth-child(2){
+    margin-top: 13px;
+}
+.hb span:last-child{
+    margin-top: 15px;
+}
+.banner_pic img{
+    display: none;
+    width: 100%;
+}
+.banner_txt{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner_slog3 img{
+    display: none;
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.banner .banner_slog {
+    display: none;
+}
+.banner .banner_slog2 {
+    display: none;
+}
+
+/* --------手機版相同的部分 */
+.title h1{
+    display: none;
+    text-align: center;
+    margin: 60px 0px 10px 0px;
+    font-size: 40px;
+    color:lavender;
+}
+
+.seconed-nav select{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    height: 60px;
+    width: 90%;
+    margin-top: 30px;
+    padding: 0px 10px;
+    font-size: 27px;
+    border:rgb(250, 246, 246) 2px solid;
+    border-radius: 10px;
+    background-color:transparent;
+    color:lavender;
+}
+
+.baby-title{
+    position: absolute;
+    top:375px;
+    left:10px;
+}
+
+.beg-title{
+    display: inline-block;
+    position: absolute;
+    top:2140px;
+    left:140px;
+}
+
+.inter-title{
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    top:3520px;
+    left:15px;
+}
+
+.high-title{
+    display: inline-block;
+    position: absolute;
+    top:4620px;
+    bottom:0px;
+    left:15px;
+    z-index: 10;
+}
+.adv{
+    display: inline-block;
+    position: relative;
+}
+
+.adv-title{
+    display: inline-block;
+    position: absolute;
+    bottom:510px;
+    left:145px;
+}
+.item{
+    /* border: 3px red solid; */
+    position: relative;
+}
+
+.level1,.level2,.level3,.level4,.level5{
+    background-color:rgba(245, 243, 243, 0.651);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(8, 103, 48);
+    font-size: 25px;
+}
+.article1,.article2,.article3,.article4,.article5{
+    display: none;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgba(173, 231, 196, 0.769);
+    font-size: 10px;
+}
+.txtt{
+    margin: 10px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    pointer-events: none;
+}
+.txtt a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color:rgb(247, 243, 243);
+}
+
+/* //hover */
+
+.item img{
+    filter: brightness(0.5);
+    cursor:pointer;
+
+}
+
+.item img:hover{
+    filter: brightness(1);
+    cursor:pointer;
+    transition: 1s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------手機版相同的部分 */
+/* ___up */
+.up .icon{
+    font-size: 40px;
+    color:rgba(205, 144, 144, 0.653);
+    position: fixed;
+    bottom: 0px;   
+    right: 0px;
+}
+.up .search{
+    font-size: 20px;
+    color:rgba(205, 144, 144, 0.653);
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+.up .cart{
+    font-size: 20px;
+    color:rgba(205, 144, 144, 0.653);
+    position: absolute;
+    top: 130px; 
+    right: 10px;
+}
+
+.footericons{
+    color:rgba(205, 144, 144, 0.653);
+    word-spacing: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.footerprivacy{
+    color:rgba(205, 144, 144, 0.653);
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.More-in a{
+    font-size: 20px;
+    color:rosybrown;
+}
+
+
+
+
+
+
+@media screen and (min-width : 768px){
+
+    body{
+        background-image: url(./Picture/5555555.jpeg);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;}
+
+    .container{
+        background: linear-gradient(90deg,rgba(156, 201, 167, 0.468)40%,transparent 100%);
+    } 
+
+    .level1,.level2,.level3,.level4,.level5{
+        background-color: transparent;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color: rgb(8, 103, 48);
+        font-size: 25px;
+    }
+    .article1,.article2,.article3,.article4,.article5{
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: rgba(173, 231, 196, 0.769);
+        font-size: 10px;
+    }
+    
+    .txtt{
+        margin: 10px;
+        position: absolute;
+        top:0px;
+        right:0px;
+        z-index: 10;
+        left: 0;
+        bottom: 0;
+        line-height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .txtt a{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        color:rgb(247, 243, 243);
+    }
+    
+    .item img:hover{
+        font-size: 0px;
+    } 
+
+    .item img{
+        cursor:pointer;
+    }
+
+    .adjust{
+        position: relative;
+    }
+
+    .adjust img{
+        position: absolute;
+        top:180px;
+        left:0px;
+    }
+
+    .baby-title{
+        position: absolute;
+        top:700px;
+        left:450px;
+    }
+    
+    .beg-title{
+        display: inline-block;
+        position: absolute;
+        top:1450px;
+        left:450px;
+    }
+    
+    .inter-title{
+        color: whitesmoke;
+        display: inline-block;
+        position: absolute;
+        top:3830px;
+        left:450px;
+    }
+    
+    .high-title{
+        display: inline-block;
+        display: inline-block;
+        position: absolute;
+        top:4200px;
+        bottom:0px;
+        left:450px;
+    }
+    .adv{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .adv-title{
+        display: inline-block;
+        position: absolute;
+        bottom:80px;
+        left:450px;
+    }
+
+    .txtt{
+        margin: 20px;
+        position: absolute;
+        top:0px;
+        right:0px;
+        z-index: 10;
+    }
+    
+    .txtt a{
+        padding-top: 20px;
+        text-decoration: none;
+        display: inline-block;
+        margin:0px;
+        font-size: 15px;
+        color:rgb(248, 250, 248);
+        text-align: center;
+    }
+
+    
+
+}
+
+/* ============================================== */
+
+@media screen and (min-width: 1024px) {
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;}
+    
+    .main-header{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+        background-color: #398039a7;;
+        font-family: 'Architects Daughter', cursive;
+        z-index: 3;
+    }
+    .main-nav{
+        width: 100%;
+        height: 100%; 
+        position: static;
+        display: flex;
+        flex-direction: row;
+        background-color:transparent;
+        border-radius: 0px;
+        opacity: 1;
+    }
+
+    .main-nav a{
+        padding-left: 60px;
+        margin-left: 0px;
+        color: rgba(245, 243, 243, 0.981);
+        font-size: 20px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+    .main-nav a:hover{
+        margin-left: 0px;
+        color: rgba(5, 5, 5, 0.851);
+        margin-top: 0px;
+        line-height: 0px;
+    }
+
+    .hb{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        width:  50px;
+        height: 70px;
+        background-color: rgba(91, 150, 91, 0.761);  
+    }
+    .hb span{
+        display: none;
+        border-radius: 5px;
+        width: 40px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        border: rgb(23, 67, 25) 1px solid;
+    }
+    .banner{
+        width: 100%;  
+        position: relative;
+        font-family: 'Grechen Fuemen', cursive;
+        opacity: 1;
+    }
+    .banner_pic{  
+        height: 400px;
+    }
+    .banner_txt{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .banner_slog {
+        text-decoration: none;
+        color: rgba(176, 192, 178, 0.968);
+        font-size: 80px;
+        position: absolute;
+        top:120px;
+        left:70px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.6;
+    }
+    .banner .banner_slog2 {
+        text-decoration: none;
+        font-size: 30px;
+        color: rgba(90, 87, 87, 0.968);
+        text-indent: 20px;
+        line-height: 40px;
+        position: absolute;
+        top:250px;
+        left:240px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.8;
+    }
+
+    .title{
+        color: darkgreen;
+        text-align: center;
+    }
+    .title h1{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .title h5{
+        color: rgb(194, 94, 31);
+        font-size: 30px;
+        text-transform:capitalize;
+    }
+
+/* ======= */
+
+.baby{
+    position: relative;
+}
+
+.level1{
+    position: absolute;
+    width: 200px;
+    top:  400px;
+    left: 300px;
+}
+
+.article1{
+    position: relative;
+    top: 500px;
+    left:100px;
+}
+.begi{
+    display: flex;
+    position: relative;
+}
+
+.level2{
+    position: absolute;
+    top: -150px;
+    left: 80x;
+}
+
+.article2{
+    position: relative;
+    top: -100px;
+    left:-50px;
+}
+.inter{
+    display: flex;
+    position: relative;
+}
+
+.inter-title{
+    padding: 10px;
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    top:400px;
+    left:40px;
+}
+
+.level3{
+    width: 300px;
+    position: absolute;
+    top: -350px;
+    left: 300px;
+}
+
+.article3{
+    position: relative;
+    top: -320px;
+    left: 300px;
+}
+
+.high{
+    display: inline-block;
+    position: relative;
+}
+
+.high-title{
+    padding: 60px;
+    display: flex;
+    position: absolute;
+    top:1450px;
+    left:600px;
+}
+
+.level4{
+    position: absolute;
+    top: 0px;
+    left:-100px;
+}
+
+.article4{
+    position: relative;
+    top: 50px;
+    left:0px;
+}
+.adv{
+    display: flex;
+    position: relative;
+}
+
+.level5{
+    width: 250px;
+    position: absolute;
+    top: -50px;
+    left: 150px;
+}
+.article5{
+    position: relative;
+    top: -30px;
+    left:200px;
+}
+.adjust{
+    height: 40px;
+    position: relative;
+}
+.adjust img {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 250px;
+}
+
+.adv img{
+    width: 100%;
+}
+
+.level1,.level2,.level3,.level4,.level5{
+    display: block;
+    text-decoration: none;
+    color: rgb(219, 238, 229);
+    font-size: 30px;
+}
+.article1,.article2,.article3,.article4,.article5{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(173, 231, 231);
+    font-size: 18px;
+}
+
+.txtt a{
+
+    padding-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin:0px;
+    font-size: 18px;
+    color:rgb(248, 250, 248);
+    text-align: center;
+}
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;}
+
+        .main-header{
+            width: 100%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            position: fixed;
+            background-color: rgba(32, 94, 32, 0.661);
+            font-family: 'Architects Daughter', cursive;
+            z-index: 4;
+        }
+        .main-nav{
+            width: 100%;
+            height: 100%; 
+            position: static;
+            display: flex;
+            flex-direction: row;
+            background-color:transparent;
+            border-radius: 0px;
+            opacity: 1;
+        }
+        .main-nav a:hover{
+            text-decoration: none;
+            margin-left: 0px;
+            color: rgba(5, 5, 5, 0.851);
+            font-size: 30px;
+            margin-top: 0px;
+            line-height: 0px;
+            transition: 1s;
+        }
+        .main-nav a{
+            text-decoration: none;
+            padding-right: 0px;
+            color: rgb(218, 228, 220);
+            font-size: 25px;
+            margin-top: 0px;
+            line-height: 0px;
+        }  
+        
+   /* === */
+    .hb{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        width:  50px;
+        height: 70px;
+    
+    }
+    .hb span{
+        display: none;
+        border-radius: 5px;
+        width: 40px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .baby{
+        position: relative;
+    }
+    
+    .level1{
+        background-color: rgba(245, 243, 243, 0.351);
+        border-radius: 10px;
+        position: absolute;
+        width: 200px;
+        top:  400px;
+        left: 500px;
+    }
+    
+    .article1{
+        position: relative;
+        top: 500px;
+        left:200px;
+    }
+    .begi{
+        display: flex;
+        position: relative;
+    }
+    
+    .level2{
+        background-color: rgba(245, 243, 243, 0.351);
+        border-radius: 10px;
+        text-align: center;
+        width: 350px;
+        position: absolute;
+        top: -440px;
+        left: 0x;
+    
+    }
+    
+    .article2{
+        position: relative;
+        top: -350px;
+        left:0px;
+        ;
+    }
+    .inter{
+        display: flex;
+        position: relative;
+
+
+    }
+    .inter-title{
+        padding: 10px;
+        color: whitesmoke;
+        display: inline-block;
+        position: absolute;
+        padding-bottom: 20px;
+        top:200px;
+        left:40px;
+    }
+    
+    .level3{
+        background-color: rgba(245, 243, 243, 0.351);
+        border-radius: 10px;
+        text-align: center;
+        width: 350px;
+        position: absolute;
+        top: -200px;
+        left: 400px;
+        
+    }
+    
+    .article3{
+        
+        position: relative;
+        top: -380px;
+        left: 400px;
+    
+        
+    }
+    .high{
+        display: inline-block;
+        position: relative;
+    }
+    .high-title{
+        padding: 60px;
+        display: flex;
+        position: absolute;
+        top:1350px;
+        left:600px;
+    
+    }
+    
+    .level4{
+        background-color: rgba(245, 243, 243, 0.351);
+        text-align: center;
+        border-radius: 10px;
+        width: 400px;
+        position: absolute;
+        top:100px;
+        left:-120px;
+        
+    }
+    
+    .article4{
+        position: relative;
+        top: 0px;
+        left:0px;
+        
+    }
+    .adv{
+        display: flex;
+        position: relative;
+    }
+    
+    .level5{
+        background-color: rgba(245, 243, 243, 0.351);
+        border-radius: 10px;
+        width: 300px;
+        position: absolute;
+        top: -100px;
+        left: 200px;
+    }
+    .article5{
+        position: relative;
+        top: -30px;
+        left:250px;
+    }
+
+    .level1,.level2,.level3,.level4,.level5{
+        display: block;
+        text-decoration: none;
+        color: rgb(219, 238, 229);
+        font-size: 35px;
+    }
+    .article1,.article2,.article3,.article4,.article5{
+
+        display: none;
+        margin-top: 20px;
+        text-decoration: none;
+        color: rgb(173, 231, 231);
+        font-size: 23px;
+    }
+    .owl-carousel img{
+        width: 400px;
+        height: 300px;
+        filter: brightness(1);
+        object-fit: cover;
+    }
+    
+    }
+
+    
+
+
+
+
+
+
+
+
+

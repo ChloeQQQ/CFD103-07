@@ -1,0 +1,505 @@
+/* font-family: 'Gamja Flower', cursive; */
+/* font-family: 'Grechen Fuemen', cursive; */
+/* font-family: 'Architects Daughter', cursive; */
+
+.container{
+    /* background: linear-gradient(90deg,rgba(156, 201, 167, 0.468)40%,transparent 100%);  */
+    border-radius: 10px;
+    color:darkgreen;
+    margin: auto;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.trip{
+    background:linear-gradient(45deg,rgba(183, 215, 191, 0.468)90%,transparent 90%);
+}
+
+.item img{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    filter: brightness(0.5);
+    transition: 1s;
+}
+.item img:hover{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    filter: brightness(1);
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    font-family: 'Architects Daughter', cursive;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+}
+.logo img{
+    width: 120%;
+} 
+.main-nav{
+    width: 300px;
+    height: 310px;
+    display: none;
+    flex-direction: column;
+    background-color:rgba(13, 70, 13, 0.961);
+    border-radius: 10px;
+    opacity: 0.9;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    z-index: 3;
+}
+.main-nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+    color:rgba(245, 243, 243, 0.951);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+.main-nav a:hover{
+    margin-left: 50px;
+    color: rgba(15, 16, 15, 0.961);
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.hb{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 70px;
+    background-color: rgba(241, 248, 241, 0.461);
+    }
+    .hb span{
+    display: block;
+    border-radius: 5px;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(3, 80, 29);
+    border: rgb(23, 67, 25) 1px solid;
+    }
+
+.hb span:first-child{
+    margin-top: 15px;
+}
+.hb span:nth-child(2){
+    margin-top: 13px;
+}
+.hb span:last-child{
+    margin-top: 15px;
+}
+.banner_pic img{
+    display: none;
+    width: 100%;
+}
+.banner_txt{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner_slog3 img{
+    display: none;
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.banner .banner_slog {
+    display: none;
+}
+.banner .banner_slog2 {
+    display: none;
+}
+/* //mapRWD */
+.located{
+    aspect-ratio: 600/450;
+}
+.located iframe{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;  
+}
+.up .icon{
+    font-size: 40px;
+    color:rgba(205, 144, 144, 0.653);
+    position: fixed;
+    bottom: 0px;   
+    right: 0px;
+}
+.up .search{
+    display: none;
+    font-size: 20px;
+    color:rgba(205, 144, 144, 0.653);
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+.up .cart{
+    display: none;
+    font-size: 20px;
+    color:rgba(205, 144, 144, 0.653);
+    position: absolute;
+    top: 130px; 
+    right: 10px;
+}
+.footericons{
+    word-spacing: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.footerprivacy{
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* ======== */
+
+.button_BR{
+    display: flex;
+    padding-top: 20px;
+}
+.button_BR span{
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+}
+.button_BR button{
+    cursor: pointer;
+    padding: 3px;
+}
+.star{ 
+    text-align: right;
+    margin:10px; 
+}
+
+.itemtxt{
+    line-height: 20px;
+}
+
+.col-12  .item h2{
+    line-height: 30px;
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.row .col-12 h1{
+    
+    text-align: center;
+    border-bottom: darkgreen solid 2px;
+    color: black;
+    font-size: 25px;
+}
+
+.saleitem{
+    position: relative;
+}
+
+.n-nav{
+    position: sticky;
+    top:0px;
+    right:0px;
+}
+
+.n-nav ol{
+    cursor: pointer;
+    /* display: inline-block;  */
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 50px 0px 20px 0px;
+}
+
+.n-nav ol li{
+    padding: 5px;
+    
+}
+.n-nav ol li a:hover{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(22, 71, 44);
+    transition: 1s;
+    color: white;
+    cursor: pointer;
+    display: inline-block; 
+}
+.n-nav li a{
+    text-decoration: none;
+    color: darkgreen;
+    
+}
+
+.product-more{
+    text-align: end;
+}
+.product-more a{
+    color:rosybrown;
+    font-size: 20px;
+}
+.product-more a:hover{
+    color:rgb(39, 84, 33);
+    font-size: 20px;
+}
+
+
+    
+@media screen and (min-width: 768px){
+
+    .up .search{
+        display: block;
+        font-size: 20px;
+        color:rgba(205, 144, 144, 0.653);
+        position: absolute;
+        top: 90px;
+        right: 10px;
+    }
+    .up .cart{
+        display: block;
+        font-size: 20px;
+        color:rgba(205, 144, 144, 0.653);
+        position: absolute;
+        top: 130px; 
+        right: 10px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+
+    .button_BR{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-right: 40px;
+    }
+    .button_BR span{
+        margin: 10px 10px;
+        display: flex;
+        align-items: center;
+        color: black;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .button_BR button{
+        margin: 5px;
+        padding:4px;
+    }
+    .star{ 
+        text-align: right;
+        margin:5px; 
+    }
+    .itemtxt{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .col-12  .item h2{
+        padding: 20px 0px 40px 0px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .row .col-12 h1{
+        text-align: center;
+        border-bottom: darkgreen solid 2px;
+        color: black;
+        font-size: 30px;
+    } 
+    .n-nav ol{
+        font-size: 20px;
+        display: inline-block;
+        line-height: 100px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+
+    .main-header{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+        background-color: #398039a7;;
+        font-family: 'Architects Daughter', cursive;
+        z-index: 3;
+    }
+    .main-nav{
+        width: 100%;
+        height: 100%; 
+        position: static;
+        display: flex;
+        flex-direction: row;
+        background-color:transparent;
+        border-radius: 0px;
+        opacity: 1;
+    }
+    .main-nav a{
+        padding-left: 35px;
+        margin-left: 0px;
+        color: rgba(245, 243, 243, 0.981);
+        font-size: 25px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+    .main-nav a:hover{
+        margin-left: 0px;
+        color: rgba(5, 5, 5, 0.851);
+        font-size: px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+
+    .hb{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        width:  50px;
+        height: 70px;
+        background-color: rgba(91, 150, 91, 0.761);  
+    }
+    .hb span{
+        display: none;
+        border-radius: 5px;
+        width: 40px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        border: rgb(23, 67, 25) 1px solid;
+    }
+    .banner{
+        width: 100%;  
+        position: relative;
+        font-family: 'Grechen Fuemen', cursive;
+        opacity: 1;
+    }
+    .banner_pic{  
+        height: 400px;
+    }
+    .banner_txt{
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .banner .banner_slog {
+        text-decoration: none;
+        color: rgba(7, 72, 7,1);
+        font-size: 90px;
+        position: absolute;
+        top:120px;
+        left:180px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.6;
+    }
+    .banner .banner_slog2 {
+        text-decoration: none;
+        font-size: 30px;
+        color: rgba(53, 58, 55, 0.749);
+        text-indent: 20px;
+        line-height: 40px;
+        position: absolute;
+        top:250px;
+        left:300px;
+        display: inline-block;
+        z-index: 7;
+        opacity: 0.8;
+    }
+/* 
+    =============== */
+
+    .n-nav ol{
+        font-size: 18px;
+        display: inline-block;
+        line-height: 100px;
+    }
+
+    .row .col-12 h1{
+        text-align: center;
+        border-bottom: darkgreen solid 2px;
+        color: black;
+        font-size: 30px;
+    } 
+    .itemtxt{
+
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    
+    
+}
+
+@media screen and (min-width: 1200px){
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    .logo img{
+        width: 120%;
+    } 
+    
+    .main-nav a{
+        padding-left: 70px;
+        margin-left: 0px;
+        color: rgba(245, 243, 243, 0.981);
+        font-size: 25px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+
+    .n-nav ol{
+        font-size: 25px;
+        display: inline-block;
+        line-height: 100px;
+    }
+
+    .row .col-12 h1{
+        text-align: center;
+        border-bottom: darkgreen solid 2px;
+        color: black;
+        font-size: 30px;
+    } 
+    .itemtxt{
+
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
