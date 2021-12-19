@@ -29,19 +29,18 @@ body{
 .logo img{
     width: 120%;
 } 
-
 .main-nav{
     width: 300px;
     height: 310px;
     display: none;
     flex-direction: column;
-    background-color:rgba(13, 70, 13, 1);
+    background-color:rgba(13, 70, 13, 0.961);
     border-radius: 10px;
     opacity: 0.9;
     position: absolute;
     top: 75px;
     right: 0px;
-    z-index: 20;
+    z-index: 3;
 }
 .main-nav a{
     text-decoration: none;
@@ -59,9 +58,6 @@ body{
     margin-top: 15px;
     line-height: 30px;
 }
-
-
-
 .hb{
     border: none;
     display: flex;
@@ -765,22 +761,52 @@ body{
         height: 60px;
     }
     .logo img{
-        width: 120%;
-    } 
+        width: 120%;}
+
+        .main-header{
+            width: 100%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            position: fixed;
+            background-color: rgba(32, 94, 32, 0.661);
+            font-family: 'Architects Daughter', cursive;
+            z-index: 4;
+        }
+        .main-nav{
+            width: 100%;
+            height: 100%; 
+            position: static;
+            display: flex;
+            flex-direction: row;
+            background-color:transparent;
+            border-radius: 0px;
+            opacity: 1;
+        }
+        .main-nav a:hover{
+            text-decoration: none;
+            margin-left: 0px;
+            color: rgba(5, 5, 5, 0.851);
+            font-size: 30px;
+            margin-top: 0px;
+            line-height: 0px;
+            transition: 1s;
+        }
+        .main-nav a{
+            text-decoration: none;
+            padding-left: 70px;
+            color: rgb(218, 228, 220);
+            font-size: 25px;
+            margin-top: 0px;
+            line-height: 0px;
+        } 
 
 .checkbox{
     margin: auto;
     font-family: 'Architects Daughter', cursive;
 }
 
-.main-nav a{
-    padding-left: 70px;
-    margin-left: 0px;
-    color: rgba(245, 243, 243, 0.981);
-    font-size: 25px;
-    margin-top: 0px;
-    line-height: 0px;
-}
+
 .checkbox{
     padding-top: 0px;
     
