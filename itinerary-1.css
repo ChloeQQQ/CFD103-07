@@ -10,6 +10,7 @@
 
 .container{
     background: black;
+    /* font-family: 'Architects Daughter', cursive; */
     font-family: 'Architects Daughter', cursive;
 }
 img{
@@ -852,6 +853,7 @@ img{
         position: absolute;
         top:-200px;
         left:120px;
+     
         
     }
     
